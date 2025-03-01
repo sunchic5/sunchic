@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+#result {
+    display: none; /* 初始隱藏結果 */
+}
+
+#wuxingChart {
+    max-width: 100%;
+    height: auto;
+}
+
+/* LOGO 樣式 */
+.logo {
+    max-width: 150px; /* 調整 LOGO 大小 */
+    height: auto;
+    margin-bottom: 20px; /* 與標題的間距 */
+}
