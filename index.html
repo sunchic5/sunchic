@@ -31,6 +31,7 @@
             <button type="submit" class="btn btn-primary w-100">計算</button>
         </form>
 
+        <!-- 結果區塊 -->
         <div id="result" class="mt-4">
             <h2 class="text-center mb-3">計算結果</h2>
             <div class="row">
@@ -40,6 +41,25 @@
                 <div class="col-md-6">
                     <div id="baziResult" class="mb-3"></div>
                     <div id="wuxingResult"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 加入購買連結 -->
+        <div class="purchase-button">
+            <a href="https://shopee.tw/product/88656091/26067286725/" class="btn btn-success" target="_blank">前往購買</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap Modal 彈窗 -->
+    <div class="modal fade" id="loadingModal" tabindex="-1" aria-labelledby="loadingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loadingModalLabel">計算中</h5>
+                </div>
+                <div class="modal-body">
+                    <div id="loadingText" class="text-monospace"></div> <!-- 用於顯示跑代碼效果 -->
                 </div>
             </div>
         </div>
